@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { QuizSummaryComponentComponent } from '../quiz-summary-component/quiz-summary-component.component';
 import { IQuizSummary } from '../../Models/QuizSummary';
-import { NgFor } from '@angular/common';
+import { QuizSummaryGraphComponentComponent } from '../quiz-summary-graph-component/quiz-summary-graph-component.component';
+import { QuizListComponent } from '../quiz-list/quiz-list.component';
 
 @Component({
   selector: 'app-home',
   imports: [QuizSummaryComponentComponent,
-    NgFor
+    QuizSummaryGraphComponentComponent,
+    QuizListComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
@@ -29,5 +31,4 @@ export class HomeComponent {
       title: "Awaiting",
       count: 12
     }];
-
 }

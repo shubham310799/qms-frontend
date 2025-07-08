@@ -1,3 +1,24 @@
 .admin-home-top{
-    
+    display: flex;
+    margin: 8px;
+    padding: 6px;
+    justify-content: space-around;
+    border: 2px solid green;
+    min-height: 45vh;
+}
+
+.admin-top-left{
+    width: 100%;
+    width: 45%;
+    border: 2px solid red;
+}
+
+.admin-top-right{
+    width: 100%;
+    width: 45%;
+    border: 2px solid red;
+}
+
+.quiz-summary-graph{
+
 }
